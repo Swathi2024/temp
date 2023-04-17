@@ -15,6 +15,7 @@ class Fibonacii {
   }
 };
 int main(){
-  fib(10);
+  Fibonacii f;
+  f->fib(10);
   return 0;
 }
