@@ -1,2 +1,28 @@
-HI MAM
-THANK YOU FOR TEACHING FULL STACK DEVELOPER COURSE
+#.....code1....
+print("Hi Mam Good Morning!")
+#.....code2(sum of two numbers).....
+num1=int(input("Enter a number : "))
+num2=int(input("Enter a number : "))
+sum=num1+num2
+print("%d",sum)
+#......code3(check num even or odd).....
+num=int(input("Enter a number : "))
+x=num%2
+if x==0:
+   print("number is even ")
+else:
+   print("number is odd ")
+#.......code4(check numbers is multiples of 5 or not)....
+num=int(input("Enter a number : "))
+if(num%5==0):
+    print(num,"is multiple of 5")
+else:
+    print(num,"is not a multiple of 5")
+#.......code5(swap of two numbers)....
+S=int(input("Enter a number : "))
+R=int(input("Enter a number : "))
+temp=S
+R=S
+S=temp
+print("Value of S after swap : ",S)
+print("Value of R after swap : ",R)
